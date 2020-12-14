@@ -12,11 +12,32 @@
         <form method="POST" action="{{ route('register') }}">
             @csrf
 
-            <!-- Name -->
+            <!-- First Name -->
             <div>
-                <x-label for="name" :value="__('Name')" />
+                <x-label for="first_name" :value="__('First Name')" />
 
-                <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+                <x-input id="first_name" class="block mt-1 w-full" type="text" name="first_name" :value="old('first_name')" required autofocus />
+            </div>
+
+            <!-- Last Name -->
+            <div>
+                <x-label for="last_name" :value="__('Last Name')" />
+
+                <x-input id="last_name" class="block mt-1 w-full" type="text" name="last_name" :value="old('last_name')" required autofocus />
+            </div>
+
+            <!-- City -->
+            <div>
+                <x-label for="city" :value="__('City')" />
+
+                <x-input id="city" class="block mt-1 w-full" type="text" name="city" :value="old('city')" required autofocus />
+            </div>
+
+            <!-- Username -->
+            <div>
+                <x-label for="username" :value="__('Username')" />
+
+                <x-input id="username" class="block mt-1 w-full" type="text" name="username" :value="old('username')" required autofocus />
             </div>
 
             <!-- Email Address -->
@@ -43,6 +64,31 @@
                 <x-input id="password_confirmation" class="block mt-1 w-full"
                                 type="password"
                                 name="password_confirmation" required />
+            </div>
+
+            <!-- icone de profile -->
+            <div style="margin: 30px 0;">
+
+                <p>Choisie une icone de profile !</p>
+
+                <div style="display: flex; margin: 20px 0;">
+                    <input type="radio" id="bird" name="profile_icon" value="profile_icon/gaming-bird.png" style="display: none">
+                    <label for="bird">
+                        <img style="width: 100%;" src="{{ asset('profile_icon/gaming-bird.png') }}" alt="icone de profile d'un oiseau">
+                    </label>
+                    <input type="radio" id="pirate" name="profile_icon" value="profile_icon/gaming-pirate.png" style="display: none">
+                    <label for="pirate">
+                        <img style="width: 100%;" src="{{ asset('profile_icon/gaming-pirate.png') }}" alt="icone de profile d'un pirate">
+                    </label>
+                    <input type="radio" id="wolf" name="profile_icon" value="profile_icon/gaming-wolf.png" style="display: none">
+                    <label for="wolf">
+                        <img style="width: 100%;" src="{{ asset('profile_icon/gaming-wolf.png') }}" alt="icone de profile d'un loup">
+                    </label>
+                    <input type="radio" id="snake" name="profile_icon" value="profile_icon/gaming-snake.png'" style="display: none">
+                    <label for="snake">
+                        <img style="width: 100%;" src="{{ asset('profile_icon/gaming-snake.png') }}" alt="icone de profile d'un serpent">
+                    </label>
+                </div>
             </div>
 
             <div class="flex items-center justify-end mt-4">
