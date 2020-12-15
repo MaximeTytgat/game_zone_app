@@ -20,7 +20,7 @@ class CreateAttractionsTable extends Migration
             $table->integer('experience_earn');
             $table->string('picture');
             $table->string('picture_alt');
-            $table->string('description');
+            $table->longText('description');
             $table->timestamps();
         });
     }

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AttractionController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -15,6 +16,7 @@ use App\Http\Controllers\UserController;
 */
 
 Route::resource('User', UserController::class);
+Route::resource('Attraction', AttractionController::class);
 
 //Route::get('/', function () {
 //    return view('welcome');
