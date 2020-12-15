@@ -3,6 +3,7 @@
         <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200 w-2/3 mx-auto">
+                    <img class="mx-auto w-20" src="{{ asset($user->profile_icon) }}" alt="">
                     <div class="flex justify-between mt-5 mb-5"><span>Prénom:</span> <span class="w-2/3">{{ $user->first_name }}</span></div>
                     <div class="flex justify-between mt-5 mb-5"><span>Nom: </span> <span class="w-2/3">{{ $user->last_name }}</span></div>
                     <div class="flex justify-between mt-5 mb-5"><span>Username:</span> <span class="w-2/3">{{ $user->username }}</span></div>

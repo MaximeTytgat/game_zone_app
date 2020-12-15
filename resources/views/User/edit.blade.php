@@ -38,6 +38,31 @@
                             <x-label for="zip_code">Postal code:</x-label>
                             <x-input value="{{ $user->zip_code }}" name="zip_code" id="zip_code" type="text" tabindex="1" required autofocus></x-input>
                         </div>
+
+                        <div style="margin: 30px 0;">
+
+                            <p>tu peux changer ton icone de profile !</p>
+
+                            <div style="display: flex; margin: 20px 0;">
+                                <input type="radio" id="bird" name="profile_icon" value="profile_icon/gaming-bird.png" style="display: none">
+                                <label for="bird">
+                                    <img style="width: 100%;" src="{{ asset('profile_icon/gaming-bird.png') }}" alt="icone de profile d'un oiseau">
+                                </label>
+                                <input type="radio" id="pirate" name="profile_icon" value="profile_icon/gaming-pirate.png" style="display: none">
+                                <label for="pirate">
+                                    <img style="width: 100%;" src="{{ asset('profile_icon/gaming-pirate.png') }}" alt="icone de profile d'un pirate">
+                                </label>
+                                <input type="radio" id="wolf" name="profile_icon" value="profile_icon/gaming-wolf.png" style="display: none">
+                                <label for="wolf">
+                                    <img style="width: 100%;" src="{{ asset('profile_icon/gaming-wolf.png') }}" alt="icone de profile d'un loup">
+                                </label>
+                                <input type="radio" id="snake" name="profile_icon" value="profile_icon/gaming-snake.png" style="display: none">
+                                <label for="snake">
+                                    <img style="width: 100%;" src="{{ asset('profile_icon/gaming-snake.png') }}" alt="icone de profile d'un serpent">
+                                </label>
+                            </div>
+                        </div>
+
                         <button type="submit" id="contact-submit" class="rounded-md shadow_sm py-2 px-4 text-sm font-bold bg-green-400 text-white hover:bg-green-500">Modifier mon compte</button>
                     </form>
                 </div>

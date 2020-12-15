@@ -26,19 +26,19 @@
                 <x-input id="last_name" class="block mt-1 w-full" type="text" name="last_name" :value="old('last_name')" required autofocus />
             </div>
 
-            <!-- City -->
-            <div>
-                <x-label for="city" :value="__('City')" />
-
-                <x-input id="city" class="block mt-1 w-full" type="text" name="city" :value="old('city')" required autofocus />
-            </div>
-
             <!-- Username -->
             <div>
                 <x-label for="username" :value="__('Username')" />
 
                 <x-input id="username" class="block mt-1 w-full" type="text" name="username" :value="old('username')" required autofocus />
             </div>
+
+                <!-- City -->
+                <div>
+                    <x-label for="city" :value="__('City')" />
+
+                    <x-input id="city" class="block mt-1 w-full" type="text" name="city" :value="old('city')" required autofocus />
+                </div>
 
             <!-- Email Address -->
             <div class="mt-4">
