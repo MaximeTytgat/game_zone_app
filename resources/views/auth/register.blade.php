@@ -84,7 +84,7 @@
                     <label for="wolf">
                         <img style="width: 100%;" src="{{ asset('profile_icon/gaming-wolf.png') }}" alt="icone de profile d'un loup">
                     </label>
-                    <input type="radio" id="snake" name="profile_icon" value="profile_icon/gaming-snake.png'" style="display: none">
+                    <input type="radio" id="snake" name="profile_icon" value="profile_icon/gaming-snake.png" style="display: none">
                     <label for="snake">
                         <img style="width: 100%;" src="{{ asset('profile_icon/gaming-snake.png') }}" alt="icone de profile d'un serpent">
                     </label>
