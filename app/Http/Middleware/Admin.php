@@ -20,6 +20,6 @@ class Admin
             return $next($request);
         }
 
-        return redirect('home')->with('error', "Yon have no admin access");
+        return redirect('dashboard');
     }
 }

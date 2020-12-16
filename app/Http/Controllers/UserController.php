@@ -20,7 +20,8 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        $user = User::all();
+        return view('User.index', ['users' => $user]);
     }
 
     /**
@@ -50,10 +51,15 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function show($id)
     {
-        $user = User::find(Auth::user()->id);
-        return view('User.show', ['user' => $user]);
+        if (Auth::user()->is_admin === 1 && Auth::user()->id != $id) {
+            $user = User::find($id);
+            return view('User.show', ['user' => $user]);
+        } else {
+            $user = User::find(Auth::user()->id);
+            return view('User.show', ['user' => $user]);
+        }
     }
 
     /**
@@ -89,11 +95,17 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy()
+    public function destroy($id)
     {
-        $product = User::find(Auth::user()->id);
-        $product->delete();
+        if (Auth::user()->is_admin === 1 && Auth::user()->id != $id) {
+            $product = User::find($id);
+            $product->delete();
+            return redirect()->route('User.index');
+        } else {
+            $product = User::find(Auth::user()->id);
+            $product->delete();
+            return redirect()->route('login');
+        }
 
-        return redirect()->route('login');
     }
 }

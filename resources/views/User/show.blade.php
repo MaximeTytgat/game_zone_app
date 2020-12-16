@@ -15,9 +15,11 @@
                     <div class="flex justify-between mt-5 mb-5"><span>Postal code:</span> <span class="w-2/3">{{ $user->zip_code }}</span></div>
 
                     <div class="flex justify-between mt-12">
-                        <a href="{{ route('User.edit', ['User' => $user->id]) }}">
-                            <button class="rounded-md shadow_sm py-2 px-4 text-sm font-bold bg-green-400 text-white hover:bg-green-500">Modifier mon compte</button>
-                        </a>
+                        @if(!Auth::user()->is_admin || Auth::user()->id == $user->id)
+                            <a href="{{ route('User.edit', ['User' => $user->id]) }}">
+                                <button class="rounded-md shadow_sm py-2 px-4 text-sm font-bold bg-green-400 text-white hover:bg-green-500">Modifier mon compte</button>
+                            </a>
+                        @endif
                         <form action="{{ route('User.destroy', ['User' => $user->id]) }}" method="POST">
                             @csrf
                             @method('DELETE')

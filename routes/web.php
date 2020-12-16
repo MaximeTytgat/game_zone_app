@@ -15,7 +15,12 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::resource('User', UserController::class);
+Route::resource('User', UserController::class)->except([
+    'create', 'store', 'destroy'
+]);
+Route::resource('User', UserController::class)->only([
+    'index', 'destroy'
+])->middleware(['admin']);
 Route::resource('Attraction', AttractionController::class);
 
 //Route::get('/', function () {
