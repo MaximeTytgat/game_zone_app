@@ -21248,7 +21248,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nTypeError: [(...variantsValue),(...extensions)].flat is not a function\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/tailwindcss/lib/util/resolveConfig.js:219:73\n    at baseMergeDeep (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/lodash/_baseMergeDeep.js:42:7)\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/lodash/_baseMerge.js:27:7\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/lodash/_createBaseFor.js:17:11\n    at baseMerge (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/lodash/_baseMerge.js:24:3)\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/lodash/mergeWith.js:36:3\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/lodash/_createAssigner.js:30:9\n    at apply (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/lodash/_apply.js:15:25)\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/lodash/_overRest.js:32:12\n    at mergeVariantExtensions (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/tailwindcss/lib/util/resolveConfig.js:218:33)\n    at resolveVariants (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/tailwindcss/lib/util/resolveConfig.js:235:10)\n    at resolveConfig (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/tailwindcss/lib/util/resolveConfig.js:271:15)\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/tailwindcss/lib/index.js:77:37\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/tailwindcss/lib/processTailwindFeatures.js:52:20\n    at LazyResult.run (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/postcss/lib/lazy-result.js:288:14)\n    at LazyResult.asyncTick (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/postcss/lib/lazy-result.js:212:26)\n    at LazyResult.asyncTick (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/postcss/lib/lazy-result.js:225:14)\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/postcss/lib/lazy-result.js:217:17\n    at runLoaders (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/webpack/lib/NormalModule.js:316:20)\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Promise.resolve.then.then.catch (/home/popuser/Bureau/PopSchool/Sacha/game_zone_app/node_modules/postcss-loader/src/index.js:208:9)");
 
 /***/ }),
 
@@ -21304,8 +21304,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/max/Bureau/projets/game-zone-app/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/max/Bureau/projets/game-zone-app/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/popuser/Bureau/PopSchool/Sacha/game_zone_app/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })
