@@ -1,0 +1,573 @@
+* {
+    margin: 0 auto; 
+}
+
+
+/* header */
+
+@font-face {
+    font-family: commando;
+    src: url(/fonts/commando.ttf) format("truetype");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+    background-image: url(image/pjv-2020-2-1000x288.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header nav {
+    display: flex;
+    background-color: #282C53;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: commando;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 13.41px;
+}
+
+.logo{
+    width: 150px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top:0
+}
+
+header nav .link, .languages {
+    display: none;
+}
+
+
+
+.avatar {
+    height: 50px;
+    width: 73px;
+}
+
+.account-wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.account-wrapper > a {
+    margin: 0 10px;
+}
+
+.account-wrapper > a > .cart {
+  width: 18px;
+  height: 18px;
+}
+
+.personal-info div {
+    margin: 2px 0;
+}
+
+.hamburger img {
+    width: 24px;
+    height: 20px;
+}
+
+.content-mobile {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  float: none;
+  text-align: center;
+  background-color:#282C53;
+  top: 100px;
+  right: 0;
+  left: 0;
+  padding: 0 20px;
+  z-index: 1;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+li > a:hover {
+  color:#F6CD40;
+}
+
+.content-mobile > li {
+  margin: 20px;
+  list-style: none;
+}
+
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    bottom: 265px;
+    font-size: 20px;
+    z-index: 0;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .navitem-user {
+      margin-left: 100px;
+  }
+
+  li img {
+      width: 70px;
+      margin-top: 10px;
+  }
+  
+ 
+  li a:hover {
+    background-color: #111;
+  }
+
+  .logo {
+      position: relative;
+      z-index: 1;
+  }
+
+  .poppy-header { 
+      padding-left: 60%;
+  }
+  
+  .bar {
+      background-color: #282C53;   
+      height: 10px;
+      margin-top: 28.5%;
+  }
+
+  .poppyMap {
+    margin-left: 63%;
+    position: relative;
+    bottom: 510px;
+}
+
+
+
+  /* body */ /* body */ /* body */ /* body */ /* body */
+  span{
+      color: #F6CD40;
+  }
+
+  .containerPlan {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .iconPlan {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .icon {
+      width: 50%;
+  }
+
+  .map {
+      width: 50%;
+  }
+  .map img { 
+      width: 80%;
+  }
+
+  .googleMap{  
+    display: flex;
+    padding-top: 10%;
+    flex-direction: column;
+}
+
+.googleMap h2{
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+  /* footer */ /* footer */ /* footer */ /* footer */
+
+.backToTop {
+    margin-left: 80%;
+    position: relative;
+    top: 60px;
+}
+
+.backToTop img{
+    width: 50%;
+
+}
+
+footer {
+    width: 100%;
+    background-color: #282C53;
+    
+}
+
+.firstBoxFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3%;
+} 
+
+.firstBoxFooter a  {
+    text-decoration: none;
+    color: white;
+}
+
+.OpenHours {
+    padding-left: 85%;
+    color: #fff;
+    margin: 3% 0% ;
+}
+
+.reseaux img {
+    
+    margin-left: 20px;
+}
+
+.twitterPicture, 
+.facebookPicture, 
+.youtubePicture {
+    width: 40px;
+}
+
+.instagramPicture { 
+    width: 35px;
+}
+
+.mailPicture {
+    width: 50px;
+}
+
+.footerDown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cgvMl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    position: relative;
+    padding-bottom: 1%;
+}
+
+.cgvMl a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+footer a:hover{
+    color: #F6CD40;
+}
+
+/* media querry  */ /* media querry  */ /* media querry  */
+@media screen and (min-width: 992px){
+    .content-mobile {
+        display: none;
+      }
+}
+
+
+@media screen and (min-width: 1200px){  
+  
+  .content-mobile {
+    display: none;
+  }
+    header nav .link, .languages {
+        display: block;
+    }
+
+    header nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    header nav .link:hover {
+        color: #F6CD40;
+    }
+
+    header nav a:active {
+        color: white;
+        text-decoration: none;
+    }
+
+    .menu-wrapper {
+        cursor: pointer;
+        position: relative;
+    }
+
+
+    .dropdown {
+        display: none;   
+        position: absolute;
+        left: -23%;
+        width: 190px;
+        background-color: #282C53;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .dropdown .menu-item:first-child {
+        padding: 24px 10px 14px 10px;
+    }
+
+    .dropdown .menu-item {
+        display: block;
+        padding: 14px 10px;
+    }
+
+    .menu-wrapper:hover .dropdown {
+        display: block;
+    }
+
+    .menu-wrapper:hover .menu-arrow {
+        background-image: url(/images/arrow.png);
+    }    
+
+    .languages {
+        display: block;
+    }
+
+    .languages a {
+        display: block;
+    }
+
+    .languages img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1750px){
+    .backToTop{
+        margin-left: 80%;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .poppyMap{
+        margin-left: 50%;
+    }
+
+    .bar{
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+.bar{
+    bottom: 90px;
+}
+}
+
+@media screen and (max-width: 1350px){
+    .poppyMap{
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .backToTop{
+        margin-left: 75%;
+        top: 50px;
+    }
+
+    .poppyMap {
+        margin-left: 40%;
+        position: relative;
+        bottom: 631px;
+    }
+    .bar{
+        bottom: 120px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .poppyMap{
+        margin-left: 30%;
+        width: 500px;
+    }
+
+    .OpenHours {
+        padding-left: 75%;
+    }
+
+    .navbar {
+        font-size: 13px;
+    }
+    
+    .poppyMap {
+        margin-left: 59%;
+        width: 340px;
+        bottom: 405px;
+    }
+
+    .bar{
+        bottom: 140px;
+}
+}
+
+@media screen and (max-width: 980px) {
+    .bar{
+        bottom: 155px;
+    }
+
+    .poppyMap {
+        margin-left: 64%;
+        width: 300px;
+        bottom: 390px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .bar {
+        bottom: 200px;
+    }
+
+    .logo {
+        width: 215px;
+    }
+
+    footer {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        height: none;
+        text-align: center;
+        
+    }
+
+    .firstBoxFooter {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .OpenHours {
+        padding-left: 0%;
+        padding-bottom: 20px;
+    }
+
+    .cgvMl {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .reseaux {
+        padding-bottom: 20px;
+    }
+
+    .footerDown {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .box-effectif-element {
+        margin-right: 35%;
+    }
+
+    .allGames {
+        margin-right: 0%;
+    }
+    .backToTop {
+        margin-left:  75%;
+
+    }
+
+    .backToTop img {
+        width: 50%;
+    }
+
+    .poppyMap {
+        margin-left: 25%;
+        width: 411px;
+        bottom: 200px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 560px) {
+    .poppyMap {
+        margin-left: 40%;
+        width: 311px;
+    }
+    .iconPlan {
+        width: 80%;
+    
+    }
+
+    .iconPlan img {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .poppyMap {
+        margin-left: 27%;
+        width: 247px;
+    }
+    
+    .bar {
+        bottom: 225px;
+    }
+
+    .logo {
+        width: 137px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .bar {
+        bottom: 220px;
+    }
+
+    .logo {
+        width: 109px;
+    }
+
+    .backToTop img{
+        width: 70%;
+    }
+    
+}
