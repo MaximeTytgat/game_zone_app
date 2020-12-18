@@ -43,7 +43,7 @@ Route::get('/contact', function () { return view('contact'); })->name('contact')
 Route::get('/cgv', function () { return view('cgv'); })->name('cgv');
 Route::get('/cgu', function () { return view('cgu'); })->name('cgu');
 Route::get('/shop', function () { return view('shop'); })->name('shop');
-Route::get('/login', function () { return view('login'); })->name('login');
+Route::get('/account', function () { return view('account'); })->name('account');
 Route::get('/admin', function () { return view('admin'); })->name('admin');
 Route::get('/legalnotice', function () { return view('legalnotice'); })->name('legalnotice');
 

@@ -10,76 +10,13 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-          <a class="logo link" href="{{ route('index') }}"><img class="logo" src="{{asset('images/logo.png')}}" /></a>
-          <a class="link" href="{{ route('parc') }}"><span>Le parc</span></a>
-          <a class="link" href="{{ route('attraction') }}">Les attractions</a>
-          <a class="link" href="{{ route('plan') }}">Le plan</a>
-          <div class="link menu-wrapper">
-            Preparer ma visite
-            <div class="dropdown">
-              <a class="menu-item link" href="{{ route('plan') }}">Se rendre au parc</a>  
-              <a class="menu-item link" href="{{ route('pricelist') }}">Tarif et Billeterie</a>  
-              <a class="menu-item link" href="{{ route('timetablecalendar') }}">Horaires et calendrier</a> 
-            </div>
-          </div>
-          <a class="link" href="{{ route('shop') }}">Boutique</a>
-          <a class="link" href="{{ route('game') }}">My game</a>
-          <a class="link" href="{{ route('info') }}">Info</a>   
-          <div class="account-wrapper">
-            <div class="languages">
-                <a href="#"><img src="{{asset('images/france.png')}}" alt="france" /></a><br>
-                <a href="#"><img src="{{asset('images/england.png')}}" alt="uk" /></a><br>
-                <a href="#"><img src="{{asset('images/spain.png')}}" alt="spain" /></a>
-              </div>
-            <a href="#"><p><strong>Brian mtr</strong></p></a>
-            <a class="personal-info link" href="#">
-              <img class="avatar" src="{{asset('images/gaming_snake.png')}}" alt="avatar" />
-            </a>
-
-            <a class="hamburger" href="#"><img src="{{asset('images/hamburger.png')}}" alt="hamburger" /></a>
-          </div>
-      
-          <!-- nav mobile -->
-          <div class="content-mobile">
-            <li>
-              <a class="link-mobile" href="{{ route('parc') }}">Le parc</a><br>
-            </li>
-            <li>
-              <a class="link-mobile" href="{{ route('attraction') }}">Les attractions</a><br>
-            </li>
-            <li>
-              <a class="link-mobile" href="{{ route('plan') }}">Le plan</a><br>
-            </li>
-            <li>
-              <a class="link-mobile" href="{{ route('plan') }}">Se rendre au parc</a>  <br>
-            </li>
-            <li>
-              <a class="link-mobile" href="{{ route('pricelist') }}">Tarif et Billeterie</a>  <br>
-            </li>
-            <li>
-              <a class="link-mobile" href="{{ route('timetablecalendar') }}">Horaires et calendrier</a> <br>
-            </li>
-            <li>
-              <a class="link-mobile" href="{{ route('shop') }}">Boutique</a><br>
-            </li>
-            <li>
-              <a class="link-mobile" href="{{ route('game') }}">My game</a><br>
-            </li>
-            <li>
-              <a class="link-mobile" href="{{ route('info') }}">Info</a>
-            </li>
-          </div>   
-        </nav>
-      </header> 
     <div class="poppy-header">
         <img src="{{asset('images/astrobot-header-home-text.png')}}" alt="">
     </div>
     <div class="bar"></div>
     <div class="pictureHome">
         <img src="{{asset('images/image/picture-home-girls.png')}}" alt="">
-        <img class="center-picture-home" src= "{{asset('images/picture-home-parc-sd.png')}}" alt="">
+        <img class="center-picture-home" src="{{asset('images/picture-home-parc-sd.png')}}" alt="">
         <img src="{{asset('images/picture-parc.png')}}" alt="">
     </div>
     <h1>Bienvenue à GAME ZONE</h1>
@@ -143,34 +80,8 @@
         <img src="{{asset('images/gameCenterRound.png')}}" alt="">
         <img src="{{asset('images/battleKartRound.png')}}" alt="">
         <img src="{{asset('images/contagionRound.png')}}" alt="">
-    <a href="{{ route('index') }}"><img class="backToTop" src="{{asset('images/backToTop.png')}}" alt=""></a>
-    <footer>
-        <div class="firstBoxFooter">
-            <p><a href="{{ route('about') }}">À propos du parc</a></p>
-            <p><a href="{{ route('contact') }}">Nous contacter</a></p>
-            <p><a href="{{ route('recruitment') }}">On recrute</a></p>
-            <p><a href="{{ route('press') }}">Dans la presse</a></p>
-        </div>
-        <div class="OpenHours">
-            <p>Du lundi au jeudi : 9h-19h<br>
-                Du vendredi au samedi : 9h-18h<br>
-                Le dimanche : 9h – 18h</p>
-        </div>
-        <div class="footerDown">
-            <div class="reseaux">
-                <img class="facebookPicture" src="{{asset('images/Facebook.png')}}" alt="facebook">
-                <img class="twitterPicture" src="{{asset('images/Twitter.png')}}" alt="twitter">
-                <img class="instagramPicture" src="{{asset('images/Instagram.png')}}" alt="instagram">
-                <img class="youtubePicture" src="{{asset('images/YouTube.png')}}" alt="instagram">
-                <img class="mailPicture" src="{{asset('images/mail.png')}}" alt="mail">
-            </div>
-            <div class="cgvMl">
-                <p><a href="{{ route('cgv') }}"> Condition Générale de Vente</p></a>
-                <p><a href="{{ route('legalnotice') }}"> Mentions légales</p></a>
-            </div>
-        </div>
-    </footer>
-    <script src="{{asset('js/script.js')}}"></script>
+        <a href="{{ route('index') }}"><img class="backToTop" src="{{asset('images/backToTop.png')}}" alt=""></a>
+        <script src="{{asset('js/script.js')}}"></script>
 </body>
 
 </html>
