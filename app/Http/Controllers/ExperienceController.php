@@ -21,7 +21,7 @@ class ExperienceController extends Controller
         $attraction = Attraction::find($id);
         $product->experience += $attraction->experience_earn;
         $product->save();
-        return redirect('dashboard');
+        return redirect('dashboard')->with('status', "  Tu as gagné $attraction->experience_earn d'experience!");
     }
 
 

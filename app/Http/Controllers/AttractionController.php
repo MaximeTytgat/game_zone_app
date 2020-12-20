@@ -63,7 +63,7 @@ class AttractionController extends Controller
         ]);
 
         $attraction->save();
-        return redirect()->route('Attraction.index');
+        return redirect()->route('Attraction.index')->with('status', "Attraction crée");
     }
 
     /**
@@ -102,7 +102,7 @@ class AttractionController extends Controller
         $attraction = Attraction::find($id);
         $attraction->fill($request->all());
         $attraction->save();
-        return redirect()->route('Attraction.show', ['Attraction' => $attraction]);
+        return redirect()->route('Attraction.show', ['Attraction' => $attraction])->with('status', "Attraction modifiée");
     }
 
     /**
@@ -116,6 +116,6 @@ class AttractionController extends Controller
         $attraction = Attraction::find($id);
         $attraction->delete();
 
-        return redirect()->route('Attraction.index');
+        return redirect()->route('Attraction.index')->with('status', "Attraction Supprimée");
     }
 }

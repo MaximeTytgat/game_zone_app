@@ -35,13 +35,13 @@
                         </x-slot>
 
                         <x-slot name="content">
-                            <x-dropdown-link :href="route('Attraction.index')">
+                            <x-dropdown-link :href="route('dashboard')">
                                 Update New
                             </x-dropdown-link>
                             <x-dropdown-link :href="route('Attraction.index')">
                                 Update Attractions
                             </x-dropdown-link>
-                            <x-dropdown-link :href="route('Attraction.index')">
+                            <x-dropdown-link :href="route('dashboard')">
                                 Update Schedule
                             </x-dropdown-link>
                             <x-dropdown-link :href="route('User.index')">
@@ -150,3 +150,10 @@
         </div>
     </div>
 </nav>
+@if (session('status'))
+    <div class="w-full py-3 bg-green-300 font-bold text-white text-center">
+        <div class="alert alert-success">
+            {{ session('status') }}
+        </div>
+    </div>
+@endif

@@ -83,10 +83,10 @@ class UserController extends Controller
      */
     public function update(Request $request)
     {
-        $product = User::find(Auth::user()->id);
-        $product->fill($request->all());
-        $product->save();
-        return redirect()->route('User.show', ['User' => 0]);
+        $user = User::find(Auth::user()->id);
+        $user->fill($request->all());
+        $user->save();
+        return redirect()->route('User.show', ['User' => $user])->with('status', "Profil modifié");
     }
 
     /**
