@@ -1,9 +1,11 @@
 <?php
 
-use App\Http\Controllers\AttractionController;
-use App\Http\Controllers\HomeController;
+
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\AttractionController;
+use App\Http\Controllers\ExperienceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +24,9 @@ Route::resource('User', UserController::class)->except([
 Route::resource('User', UserController::class)->only([
     'index', 'destroy'
 ])->middleware(['admin']);
+
+Route::get('xp/{id}', [ExperienceController::class, 'addExperience'])->name('addExperience');
+
 Route::resource('Attraction', AttractionController::class);
 
 //Route::get('/', function () {

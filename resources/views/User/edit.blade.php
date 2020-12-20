@@ -3,7 +3,7 @@
         <div class="max-w-xs mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-4 bg-white border-b border-gray-200">
-                    <form action="{{ route('User.update', ['User'=>$user   ->id]) }}" method="POST" >
+                    <form action="{{ route('User.update', ['User'=>$user->id]) }}" method="POST" >
                         @csrf
                         @method('PUT')
                         <div class="mt-4 mb-4">
