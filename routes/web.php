@@ -50,6 +50,7 @@ Route::get('/legalnotice', [HomeController::class, 'legalnotice'])->name('legaln
 Route::get('/product', [HomeController::class, 'product'])->name('product');
 
 Route::get('/abouten', [HomeController::class, 'abouten'])->name('abouten');
+Route::get('/pricelisten', [HomeController::class, 'pricelisten'])->name('pricelisten');
 
 
 

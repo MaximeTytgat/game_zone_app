@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('css/pricelist.css')}}">
-    <title>Document</title>
+    <title>Rates and Ticketing</title>
 </head>
 
 <body>
@@ -15,38 +15,38 @@
             <div class="firstBox">
                 <div class="passFighterJunior">
                     <div class="boxYellow">
-                        <p>Pass Fighter Junior</p><br>
-                        <p>0 - 2 ans</p>
+                        <p>Junior Fighter Pass</p><br>
+                        <p>0 - 2 y/o</p>
                     </div>
-                    <p>La journée: Gratuit</p><br>
-                    <button class="reserve">Réserver</button>
+                    <p>1 - Day: Free</p><br>
+                    <button class="reserve">Buy</button>
                 </div>
                 <div class="passFighter">
                     <div class="boxPink">
-                        <p>Pass Fighter</p><br>
-                        <p>2 - 8 ans</p>
+                        <p>Fighter Pass</p><br>
+                        <p>2 - 8 y/o</p>
                     </div>
-                    <p>La journée: 12.50€</p><br>
-                    <button class="reserve">Réserver</button>
+                    <p>1 - Day: 12.50€</p><br>
+                    <button class="reserve">Buy</button>
                 </div>
             </div>
 
             <div class="secondBox">
                 <div class="passSuperFighter">
                     <div class="boxViolet">
-                        <p>Pass Super Fighter</p><br>
-                        <p>+ 8 ans</p>
+                        <p>Super Fighter Pass</p><br>
+                        <p>+ 8 y/o</p>
                     </div>
-                    <p>La journée: 13.50€</p>
-                    <button class="reserve">Réserver</button>
+                    <p>1 - Day: 13.50€</p>
+                    <button class="reserve">Buy</button>
                 </div>
                 <div class="passHeroes">
                     <div class="boxBlue">
-                        <p>Pass Heroes</p><br>
-                        <p>Adulte</p>
+                        <p>Heroes Pass</p><br>
+                        <p>Adult</p>
                     </div>
-                    <p>La journée: 15€</p>
-                    <button class="reserve">Réserver</button>
+                    <p>1 - Day: 15€</p>
+                    <button class="reserve">Buy</button>
                 </div>
             </div>
         </div>
@@ -55,12 +55,12 @@
         <div class="table">
             <table>
                 <tr>
-                    <td><strong>Mes billets</strong> </td>
-                    <td><strong>Quantité</strong></td>
+                    <td><strong>My tickets</strong> </td>
+                    <td><strong>Quantity</strong></td>
                     <td><strong>Total</strong></td>
                 </tr>
                 <tr>
-                    <td>Pass Fighter Junior </td>
+                    <td>Junior Fighter Pass</td>
                     <td>2
                         <input class="moins" type="button" value="-">
                         <input class="plus" type="button" value="+">
@@ -69,7 +69,7 @@
                     <td>0.00€</td>
                 </tr>
                 <tr>
-                    <td>Pass Fighter</td>
+                    <td>Fighter Pass</td>
                     <td>1
                         <input class="moins" type="button" value="-">
                         <input class="plus" type="button" value="+">
@@ -77,7 +77,7 @@
                     <td>12.50€</td>
                 </tr>
                 <tr>
-                    <td>Pass Super Fighter </td>
+                    <td>Super Fighter Pass</td>
                     <td>1
                         <input class="moins" type="button" value="-">
                         <input class="plus" type="button" value="+">
@@ -85,7 +85,7 @@
                     <td>13.50€</td>
                 </tr>
                 <tr>
-                    <td>Pass heroes</td>
+                    <td>Heroes Pass</td>
                     <td>2
                         <input class="moins" type="button" value="-">
                         <input class="plus" type="button" value="+">
@@ -99,8 +99,8 @@
                 </tr>
             </table>
             <div class="command-date">
-                <button class="date">Voir les dates disponibles</button>
-                <button class="command">Passer la commande</button>
+                <a href="{{asset('calendar')}}"><button class="date">See available dates</button></a>
+                <button class="command">Place the order</button>
             </div>
         </div>
 </body>
