@@ -4,11 +4,19 @@
 
 
 /* header */ /* header *//* header *//* header *//* header */
+
 @font-face {
   font-family: commando;
-  src: url(/fonts/commando.ttf) format("truetype");
+  src: url('/fonts/commando.ttf') format("truetype");
 }
+@font-face {
+  font-family: josefin;
+  src: url('/fonts/JosefinSans-Regular.ttf') format("truetype");
+}
+p{
+  font-family: 'Josefin';
 
+}
 html, body {
 margin: 0;
 padding: 0;
