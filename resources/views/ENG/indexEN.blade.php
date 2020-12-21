@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-    <title>Accueil</title>
+    <title>Home</title>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <img class="center-picture-home" src="{{asset('images/picture-home-parc-sd.png')}}" alt="">
         <img src="{{asset('images/picture-parc.png')}}" alt="">
     </div>
-    <h1>Bienvenue à GAME ZONE</h1>
+    <h1>Welcome to GAME ZONE</h1>
     <div class="boxHomePicture">
         <img class="ext-box-picture-home" src="{{asset('images/picture-home-parc-sd.png')}}" alt="">
         <img class="center-box-picture-home" src="{{asset('images/astrobot-picture-round.png')}}" alt="">
@@ -27,22 +28,18 @@
     <div class="containerHome">
         <div class="textDescription">
             <p>
-                Pour tout te dire GAME ZONE est un tout nouveau concept
-                de parc d’attraction !
-                Mes chefs ont créés GEEK CYBERCENTER qui est un groupe
-                possèdant plusieurs parc d’attractions dans le monde
-                comme BATTLE KART VR, FORTNITE ADVENTURE et PUBG SURVIVOR.
-                En septembre 2019, nous avons ouvert GAME ZONE et il
-                est le premier parc d’attraction au monde
-                entièrement dédié à l’univers des jeux-vidéo.
-                Alors n’hésite pas à venir t’amuser avec nous !
+                To tell you the truth, GAME ZONE is a brand new amusement park concept!
+                My bosses created GEEK CYBERCENTER which is a group with several amusement parks in the world like
+                BATTLE KART VR, FORTNITE ADVENTURE and PUBG SURVIVOR. In September 2019, we opened GAME ZONE and it is
+                the first amusement park in the world entirely dedicated to the world of video games.
+                So don't hesitate to come and have fun with us!
             </p>
         </div>
         <div class="poppyPicture">
             <img src="{{asset('images/astrbotAllonger.png')}}" alt="">
         </div>
     </div>
-    <h2>Nos effectifs</h2>
+    <h2>Our services</h2>
     <div class="boxEffectif">
         <div class="box-effectif-element">
             <p>9</p>
@@ -55,7 +52,7 @@
 
         <div class="box-effectif-element">
             <p>500K</p>
-            <p>VISITEURS</p>
+            <p>VISITORS</p>
         </div>
         <div class="box-effectif-element">
             <p>9000</p>

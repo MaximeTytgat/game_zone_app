@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">iling an amicable resolution, the dispute will be brought before the Commercial Court 
 
 <head>
     <meta charset="UTF-8">
