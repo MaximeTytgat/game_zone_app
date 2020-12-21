@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('css/attraction.css')}}">
-    <title>Document</title>
+    <title>Attraction</title>
 </head>
 
 <body>
@@ -21,19 +21,18 @@
         <div class="text_attraction">
             <p><strong>Contagion VR</strong><br>
                 <br>
-                <strong>Gain XP : 1500 XP / partie</strong><br>
+                <strong>Gain XP : 1500 XP / game</strong><br>
                 <br>
-                <strong>Interdit au moins d’1m30</strong><br>
+                <strong>You must be over 1m30 !</strong><br>
                 <br>
-                Vous dirigez une équipe de soldats en charge de découvrir
-                ce qui est arrivé aux scientifiques du laboratoire minier
-                Omega Centuri B.<br>
+                You lead a team of soldiers in charge of discovering
+                what happened to the scientists at the Omega Centuri B mining laboratory.<br>
                 <br>
-                Une fois à bord, vous apprenez qu’un terrible virus a fait muter tout l’équipage,
-                et que la station spatiale est maintenant infestée par d’horribles zombies !
-                Vous devez donc évacuer votre équipe en tentant de survivre le plus longtemps possible.
+                Once on board, you learn that a terrible virus has infected the entire crew,
+                and that the space station is now infested with horrible zombies!
+                You must evacuate your crew and try to survive as long as possible.
             </p>
-            <a class="more_infos" href="#">En savoir plus</a>
+            <a class="more_infos" href="#">Find out more</a>
         </div>
     </div>
 
@@ -45,17 +44,16 @@
             <div class="text_attraction">
                 <p><strong>Fighter Hard Team</strong><br>
                     <br>
-                    <strong>Gain XP : 1000 XP / partie</strong> <br>
+                    <strong>Gain XP : 1000 XP / game</strong> <br>
                     <br>
-                    <strong>Interdit au moins d’1m30</strong> <br>
+                    <strong>You must be over 1m30 !</strong> <br>
                     <br>
-                    Dans ce jeu, il n’y a plus de règle. Vous êtes équipé de la dernière
-                    armure sensitive et vous ressentirez tous les coups que vos adversaires
-                    vont vous porter.<br>
-                    Attention donc à ne pas prendre de mauvais coups.
-                    Une attraction déconseillée aux femmes enceintes
+                    In this game, there are no more rules. You are equipped with the latest sensitive armor
+                    and you will feel all the blows your opponents are going to give you.<br>
+                    So be careful not to take any bad hits.
+                    Not recommended for pregnant women
                 </p>
-                <a class="more_infos" href="#">En savoir plus</a>
+                <a class="more_infos" href="#">Find out more</a>
             </div>
         </div>
     </div>
@@ -67,19 +65,16 @@
         <div class="text_attraction">
             <p><strong> Heroes team</strong><br>
                 <br>
-                <strong>Gain XP : 2500 XP / partie</strong><br>
+                <strong>Gain XP : 2500 XP / game</strong><br>
                 <br>
-                <strong>Accessible à tous</strong><br>
+                <strong>Accessible to everyone</strong><br>
                 <br>
-                L’attraction ultime de notre parc, un univers
-                entièrement consacré aux super héros Marvel.
-                Embarquez dans une navette qui vous fera voyager
-                dans l’univers des gardiens de la
-                galaxy, Spider-Man, Thor, Iron Man et plus encore. <br>
+                The ultimate attraction of our park, a universe entirely dedicated to Marvel superheroes.
+                Embark on a shuttle that will take you on a journey that will take you
+                in the universe of the Guardians of the Galaxy, Spider-Man, Thor, Iron Man and more. <br>
                 <br>
-                Une aventure unique dont vous serez le héros durant tout le voyage.
-            </p>
-            <a class="more_infos" href="#">En savoir plus</a>
+                A unique adventure in which you will be the hero during the whole trip. </p>
+            <a class="more_infos" href="#">Find out more</a>
         </div>
     </div>
 
@@ -91,18 +86,17 @@
             <div class="text_attraction">
                 <p><strong>Super Fighter League</strong><br>
                     <br>
-                    <strong>Gain XP : 1000 XP / partie</strong> <br>
+                    <strong>Gain XP : 1000 XP / game</strong> <br>
                     <br>
-                    <strong> Interdit au moins d’1m10</strong> <br>
+                    <strong> You must be over 1m10</strong> <br>
                     <br>
-                    Vous aimez les jeux de combat alors
-                    bienvenue dans ce grand 8 aux couleurs des plus grands
-                    combattants de l’histoire du jeu-vidéo : Ryu, Raiden,
-                    Akuma, Yoshimitsu, Sub Zero, Scorpion et plus encore vont
-                    vous défier dans ce manège à<br>
+                    You like fighting games ? Then welcome to this great roller coaster.
+                    In the colors of the greatest fighters in the history of video games:
+                    Ryu, Raiden, Akuma, Yoshimitsu, Sub Zero, Scorpion and more will challenge you in this
+                    carousel at<br>
 
                 </p>
-                <a class="more_infos" href="#">En savoir plus</a>
+                <a class="more_infos" href="#">Find out more</a>
             </div>
         </div>
     </div>
@@ -115,16 +109,16 @@
         <div class="text_attraction">
             <p><strong>GAME CENTER</strong><br>
                 <br>
-                <strong> Gain XP : 500 XP / partie</strong><br>
+                <strong> Gain XP : 500 XP / game</strong><br>
                 <br>
-                <strong>Accessible à tous</strong><br>
+                <strong>Accessible to everyone</strong><br>
                 <br>
-                Un espace de 3000 m2 dédié au Retro Gaming.
-                Vous retrouverez toute l’ambiance des salles d’arcade des
-                années 80 avec bornes de l’époque pour défier vos
-                amis dans les meilleurs jeux retro : Mario, Centipede, Q Bert, Space invaders, Pac-Man...
+                A 3000 m2 space dedicated to Retro Gaming.
+                You will find the atmosphere of the arcade rooms of the
+                the 80's with the era's bollards to challenge your
+                iifriends in the best retro games: Mario, Centipede, Q Bert, Space invaders, Pac-Man...
             </p>
-            <a class="more_infos" href="#">En savoir plus</a>
+            <a class="more_infos" href="#">Find out more</a>
         </div>
     </div>
 
@@ -136,18 +130,20 @@
             <div class="text_attraction">
                 <p><strong>Battle Kart</strong><br>
                     <br>
-                    <strong>Gain XP : 1000 XP / partie</strong> <br>
+                    <strong>Gain XP : 1000 XP / game</strong> <br>
                     <br>
-                    <strong>Accessible à tous</strong> <br>
+                    <strong>Accessible to everyone</strong> <br>
                     <br>
-                    BattleKart, c’est la quintessence du jeu vidéo, de la réalité
-                    augmentée et du karting électrique, réunis pour vous procurer
-                    des sensations inédites entre amis, en familles ou entre collègues !<br>
-                    C’est avant tout l’un des plus grands écrans de cinéma au monde (deux pistes de 2.000 m2) sur lequel nous projetons différents circuits et modes de jeu,
-                    et sur lequel vous évoluez réellement plein gaz à bord d’un kart électrique, tout en interagissant avec le décor, les bonus, et les autres pilotes.<br>
+                    BattleKart is the quintessence of video games, enhance reality,
+                    and electric go-karting, combined to provide you with
+                    new sensations with friends, family or colleagues ! !<br>
+                    Above all, it is one of the largest cinema screens in the world (two 2,000 m2 tracks) on which we
+                    project different circuits and game modes,
+                    and on which you really move at full throttle in an electric go-kart, while interacting with the
+                    scenery, the bonuses, and the other drivers.<br>
 
                 </p>
-                <a class="more_infos" href="#">En savoir plus</a>
+                <a class="more_infos" href="#">Find out more</a>
             </div>
         </div>
     </div>
@@ -158,17 +154,16 @@
         <div class="text_attraction">
             <p><strong>Champions League</strong><br>
                 <br>
-                <strong>Gain XP : 1300 XP / partie</strong><br>
+                <strong>Gain XP : 1300 XP / game</strong><br>
                 <br>
-                <strong>Accessible à tous</strong><br>
+                <strong>Accessible to everyone</strong><br>
                 <br>
-                Dans ce jeu vous bénéficiez de la toute dernière
-                technologie hologramme pour affronter les légendes du football
-                en partenariat avec Konami et la licence de simulation de football PES.<br>
-                Venez affronter sur le terrain Maradona, Pelé, Zidane, Messi
-                et bien d’autres.
+                In this game you benefit from the latest
+                hologram technology to face the legends of soccer in partnership with Konami and the PES soccer
+                simulation license.<br>
+                Come and play against Maradona, Pele, Zidane, Messi and many others.
             </p>
-            <a class="more_infos" href="#">En savoir plus</a>
+            <a class="more_infos" href="#">Find out more</a>
         </div>
     </div>
 
@@ -180,17 +175,16 @@
             <div class="text_attraction">
                 <p><strong>Champions League Survivor</strong><br>
                     <br>
-                    <strong>Gain XP : 1300 XP / partie</strong> <br>
+                    <strong>Gain XP : 1300 XP / game</strong> <br>
                     <br>
-                    <strong>Accessible à tous</strong> <br>
+                    <strong>Accessible to everyone</strong> <br>
                     <br>
-                    Dans ce jeu vous bénéficiez de la toute dernière
-                    technologie hologramme pour affronter les légendes du football
-                    en partenariat avec Konami et la licence de simulation de football PES.<br>
+                    In this game you benefit from the latest holographic technology to take on soccer legends in
+                    partnership with Konami and the PES soccer simulation license.<br>
                     Venez affronter sur le terrain Maradona, Pelé, Zidane, Messi
                     et bien d’autres.
                 </p>
-                <a class="more_infos" href="#">En savoir plus</a>
+                <a class="more_infos" href="#">Find out more</a>
             </div>
         </div>
     </div>
@@ -201,17 +195,17 @@
         <div class="text_attraction">
             <p><strong> Awsome heroes team</strong><br>
                 <br>
-                <strong>Gain XP : 1200 XP / partie</strong><br>
+                <strong>Gain XP : 1200 XP / game</strong><br>
                 <br>
-                <strong>Interdit au moins d’1m30</strong><br>
+                <strong>You must be over 1m30</strong><br>
                 <br>
-                Une plongée épique dans l’univers des vikings et des
-                chevaliers. Vous retrouverez l’ambiance du célèbre
-                jeu For Honor du studio français Ubisoft.<br>
-                Une attraction riche en sensations fortes déconseillée
-                aux âmes sensibles.
+                An epic plunge into the world of the Vikings and the
+                knights. You will find the atmosphere of the famous
+                For Honor game from the French studio Ubisoft<br>
+                An attraction rich in thrills not recommended
+                to sensitive souls.
             </p>
-            <a class="more_infos" href="#">En savoir plus</a>
+            <a class="more_infos" href="#">Find out more</a>
         </div>
     </div>
 
