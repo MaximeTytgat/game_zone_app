@@ -34,23 +34,23 @@ Route::resource('Attraction', AttractionController::class);
 //});
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
-Route::get('/parc', [HomeController::class, 'parc'])->name('parc');
-Route::get('/attraction', [HomeController::class, 'attraction'])->name('attraction');
-Route::get('/plan', [HomeController::class, 'plan'])->name('plan');
-Route::get('/itinerary', [HomeController::class, 'itinerary'])->name('itinerary');
-Route::get('/pricelist', [HomeController::class, 'pricelist'])->name('pricelist');
-Route::get('/timetablecalendar', [HomeController::class, 'timetablecalendar'])->name('timetablecalendar');
-Route::get('/game', [HomeController::class, 'game'])->name('game');
-Route::get('/info', [HomeController::class, 'info'])->name('info');
-Route::get('/about', [HomeController::class, 'about'])->name('about');
-Route::get('/press', [HomeController::class, 'press'])->name('press');
-Route::get('/recruitment', [HomeController::class, 'recruitment'])->name('recruitment');
-Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/cgv', [HomeController::class, 'cgv'])->name('cgv');
 Route::get('/cgu', [HomeController::class, 'cgu'])->name('cgu');
+Route::get('/parc', [HomeController::class, 'parc'])->name('parc');
 Route::get('/shop', [HomeController::class, 'shop'])->name('shop');
-Route::get('/account', [HomeController::class, 'account'])->name('account');
+Route::get('/plan', [HomeController::class, 'plan'])->name('plan');
+Route::get('/game', [HomeController::class, 'game'])->name('game');
+Route::get('/info', [HomeController::class, 'info'])->name('info');
 Route::get('/admin', [HomeController::class, 'admin'])->name('admin');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+Route::get('/press', [HomeController::class, 'press'])->name('press');
+Route::get('/account', [HomeController::class, 'account'])->name('account');
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('/calendar', [HomeController::class, 'calendar'])->name('calendar');
+Route::get('/itinerary', [HomeController::class, 'itinerary'])->name('itinerary');
+Route::get('/pricelist', [HomeController::class, 'pricelist'])->name('pricelist');
+Route::get('/attraction', [HomeController::class, 'attraction'])->name('attraction');
+Route::get('/recruitment', [HomeController::class, 'recruitment'])->name('recruitment');
 Route::get('/legalnotice', [HomeController::class, 'legalnotice'])->name('legalnotice');
 
 
