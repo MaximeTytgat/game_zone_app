@@ -5,47 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('css/about.css')}}">
-    <title>A propos</title>
+    <title>About</title>
 </head>
 
 <body>
     <div class="titlePropos">
-        <h2>Qui sommes-nous ?</h2>
+        <h2>About us</h2>
     </div>
     <div class="container">
 
         <img src="{{asset('images/logoPropos.png')}}" alt="logo_game_zone">
         <p class="description">
-            <strong>Le parc d’attraction Game Zone</strong><br>
+            <strong>Game Zone amusement parc</strong><br>
             <br>
-            Est un parc où les jeux-vidéos prennent vie !<br>
+            where the game becomes reality !<br>
             <br>
-            De Contagion VR à Battle Royale, revivez vos expériences
-            passées avec nos parcs d’attractions.<br>
+            From Contagion VR to à Battle Royale, relive your past experience with our amusement parcs.<br>
             <br>
-            Une expérience unique et magique vous
+            A UNIQUE AND MAGIC EXPERIENCE
         </p>
     </div><br>
 
     <div class="titlePropos">
-        <h2>Nos services</h2>
+        <h2>Our services</h2>
     </div><br>
     <p class="description">
-        <strong>Simplicité</strong> <br>
-        Un instant de plaisir sans contrainte avec un
-        site accessible et convivial.<br>
+        <strong>Simplicity</strong> <br>
+        A moment of unrestrained pleasure with an accessible and user-friendly site.<br>
         <br>
         <strong>Proximité</strong><br>
-        Être à vos côtés et à votre écoute avec un service client
-        situé dans nos locaux, à proximité des équipes.<br>
+        Being at your side and listening to you with a customer service department located in our premises, close to our teams.<br>
         <br>
         <strong>Confiance</strong><br>
-        Vous proposer la qualité, les meilleurs prix et des services
-        d’une grande enseigne, pour une expérience en toute sérénité.<br>
+        To offer quality, the best prices and services for a serene experience.<br>
         <br>
         <strong>Passion</strong><br>
-        Vous accompagner au cœur de vos achats (boutique en ligne)
-        avec des équipes passionnées par leurs produits et leur métier.<br>
+        Our passionate team will guide you during your purchases on our online store.<br>
     </p>
     </div>
 </body>
