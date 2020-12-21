@@ -1,0 +1,83 @@
+
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+/* .color_title{
+    height: 117px;
+    background-color:;
+    position: absolute;
+    width: 100%;
+    top:57px;
+} */
+.recrutement{
+    width: 60%;
+    padding: 40px;
+}
+.recrutement h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.blue_background{
+    text-decoration: none;
+    background-color: #282C53;
+    width: 100%;
+    color: white;
+    padding: 50px;
+}
+
+.blue_background p{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.blue_background li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+@font-face {
+    font-family: commando;
+    src: url(/fonts/commando.ttf) format("truetype");
+  }
+  
+  .logo { 
+    position: relative;
+    z-index: 1;
+    width: 150px;
+  }
+  
+  .boxBlueHeader {
+  width: 100%;
+  height: 260px;
+  background-color: #282C53;
+  position: relative;
+  bottom: 265px;
+  }
+  
+  h1{
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+    top: 220px;
+    text-align: center;
+  }
+  
+  .backToTop{
+    margin-left: 85%;
+    position: relative;
+    top: 60px;
+    width: 10%;
+  }
+    
+  @media screen and (min-width: 992px){
+    .content-mobile {
+        display: none;
+      }
+  }
+  
