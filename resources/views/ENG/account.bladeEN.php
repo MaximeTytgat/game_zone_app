@@ -4,60 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('css/account.css')}}">
-    <title>Connexion</title>
+    <title>Log in</title>
 </head>
 <body>
         <img class="picture" src="{{asset('images/astrobotAccount.png')}}" alt="astro_bot">
         <div class="containerWhite">
             <form action="/connexion" method="post">
                 <div>
-                    <label for="name">Utilisateur :</label>
+                    <label for="name">User :</label>
                     <input type="text" id="name" name="user_name">
                 </div>
                 <div>
-                    <label for="mail">Mot de passe :</label>
+                    <label for="mail">Password:</label>
                     <input type="email" id="mail" name="user_mail">
                 </div>
-                <p>Vous n'avez pas encore de compte ?<a href="">Inscrivez-vous</a> </p>
+                <p>You don't have an account yet ?<a href="">Sign in</a> </p>
                 <div class="button">
-                    <button type="submit">Valider</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </div>
         <div class="containerBlue">
-            <h2>S'inscrire</h2>
+            <h2>Sign in</h2>
             <form action="/inscription" method="post">
                 <div>
-                    <label class="labelSubscribe" for="name">Nom :</label>
+                    <label class="labelSubscribe" for="name">First name :</label>
                     <input class="inputSubscribe" type="text" id="surname" name="user_surname">
                 </div>
                 <div>
-                    <label class="labelSubscribe" for="name">Prenom :</label>
+                    <label class="labelSubscribe" for="name">Last name :</label>
                     <input class="inputSubscribe" type="text" id="name" name="user_name">
                 </div>
                 <div>
-                    <label class="labelSubscribe" for="country">Ville :</label>
+                    <label class="labelSubscribe" for="country">City :</label>
                     <input class="inputSubscribe" type="text" id="country" name="user_country">
                 </div>
                 <div>
-                    <label class="labelSubscribe" for="name">Pseudo :</label>
+                    <label class="labelSubscribe" for="name">Nickname :</label>
                     <input class="inputSubscribe" type="text" id="pseudo" name="user_pseudo">
                 </div>
                 <div>
-                    <label class="labelSubscribe" for="mail">Mot de passe :</label>
+                    <label class="labelSubscribe" for="mail">Password :</label>
                     <input class="inputSubscribe" type="password" id="password" name="password">
                 </div>
                 <div>
-                    <label class="labelSubscribe" for="mail">Mot de passe :</label>
+                    <label class="labelSubscribe" for="mail">Password :</label>
                     <input class="inputSubscribe" type="password" id="password" name="password">
                 </div>
                 <div class="rgpd">
                     <input class="checkboxInput" type="checkbox" id="scales" name="scales"
                            checked>
-                    <label for="scales">J'accepte les conditions d'utilisation.</label>
+                    <label for="scales">I agree with the condition of us.</label>
                   </div>
                 <div class="button">
-                    <button class="buttonSubscribe" type="submit">Valider</button>
+                    <button class="buttonSubscribe" type="submit">Submit</button>
                 </div>
             </form>
             <div class="avatar">
@@ -67,7 +67,7 @@
               <button class="buttonPirate"><img src="{{asset('images/gaming-pirate 1.png')}}" alt=""></button>
             </div>
         </div>
-        <p class="xp">Explication systeme de gain d’xp</p>
+        <p class="xp">How to collect XP ?</p>
         <!-- footer -->
     <img class="backToTop" src="{{asset('images/backToTop.png')}}" alt="back_to_top">
 </body>
