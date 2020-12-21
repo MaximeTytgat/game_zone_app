@@ -99,7 +99,7 @@
                 </tr>
             </table>
             <div class="command-date">
-                <button class="date">Voir les dates disponibles</button>
+                <a href="{{asset('calendar')}}"></a><button class="date">Voir les dates disponibles</button></a>
                 <button class="command">Passer la commande</button>
             </div>
         </div>

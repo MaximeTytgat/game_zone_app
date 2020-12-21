@@ -81,4 +81,7 @@ class HomeController extends Controller
     public function legalnotice() {
         return view('legalnotice');
     }
+    public function product() {
+        return view('product');
+    }
 }
