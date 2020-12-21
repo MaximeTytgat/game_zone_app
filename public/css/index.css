@@ -20,8 +20,6 @@ body{
 html, body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
 }
 
 header nav {
@@ -106,12 +104,6 @@ li > a:hover {
   margin: 20px;
   list-style: none;
 }
-
-
-
-
-
-
 span{
     color: #F6CD40;
 }
@@ -120,16 +112,15 @@ span{
 }
 
   .poppy-header{ 
+      background-image: url(/images/un-parc-dattractions-dedie-aux-jeux-video-a-nimes-dici-2020_u6pv\ 1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 600px;
       padding-left: 60%;
       position: relative;
-      top: 230px;
-      z-index: 1;
-  }
-  
-  .bar{
-      background-color: #282C53;   
-      height: 10px;
-      margin-top: 6%;
+      z-index: 33;
+      border-bottom: 5px solid #282C53;
   }
 
   .astrobotHomePicture{
@@ -194,10 +185,10 @@ span{
 
   .textDescription{
       font-size: 30px;
-      width: 30%;
+      width: 42%;
       position: relative;
       top: 100px;
-      left: 300px;
+      left: 260px;
   }
 
   .boxEffectif{
@@ -205,7 +196,7 @@ span{
       width: 100%;
       height: 10px;
       margin-top: 5%;
-      height: 300px;
+      height: 310px;
       display: flex;
       flex-direction: row;
       overflow: hidden;
@@ -413,16 +404,10 @@ footer a:hover{
 
 .poppy-header img{
     position: relative;
-    top: 330px;
+    top: 50px;
 }
 .pictureHome img{
     width: 30%;
-    margin-top: 20%;
-}
-
-.bar{
-    position: relative;
-    top: 332px;
 }
 
 .backToTop{
@@ -446,17 +431,9 @@ footer a:hover{
         right: 100px;
         width: 500px;
     }
-    .bar{
-        bottom: 30px;
-    }
-
-
 }
 
 @media screen and (max-width: 1500px){
-    .bar{
-        bottom: 80px;
-    }
 
     .poppyPicture img{
         top: 420px;
@@ -464,9 +441,7 @@ footer a:hover{
 }
 
 @media screen and (max-width: 1400px){
-    .bar{
-        bottom: 120px;
-    }
+
 
     .poppy-header img{
         bottom: 80px;
@@ -474,10 +449,6 @@ footer a:hover{
 }
 
 @media screen and (max-width: 1300px){
-
-    .bar{
-        bottom: 170px;
-    }
 
     .poppy-header img{
         bottom: 100px;
@@ -516,11 +487,6 @@ footer a:hover{
     }
     .poppy-header img{
         bottom: 190px;
-        position: sticky;
-    }
-
-    .bar{
-        top: 140px;
     }
     .pictureHome{
         padding-top: 0%;
@@ -539,11 +505,6 @@ footer a:hover{
     .poppy-header img{
         bottom: 220px;
     }
-
-    .bar{
-        bottom: 260px;
-    }
-
     .backToTop {
         width: 10%;
     }
@@ -573,10 +534,6 @@ footer a:hover{
 
     .poppy-header{
         height: 300px;
-    }
-
-    .bar{
-        bottom: 120px;
     }
 
     .reseaux img{
@@ -616,10 +573,6 @@ footer a:hover{
         width: 90%;
         bottom: 173px;
     }
-    .bar{
-        bottom: 50px;
-    }
-
     header{
         height: 100px;
     }
@@ -681,7 +634,7 @@ footer a:hover{
     .boxEffectif{
         display: flex;
         flex-direction: column;
-        height: 400px;
+        height: 550px;
     }
 
     .box-effectif-element p{
@@ -695,7 +648,6 @@ footer a:hover{
     }
 
     .containerHome {
-        padding-right: 10%;
     }
     .allGames img{
         width: 12%;
@@ -725,11 +677,6 @@ footer a:hover{
     .poppy-header{
         height: 200px;
     }
-
-    .bar{
-        bottom: 80px;
-    }
-
     .pictureHome img {
         padding-left: 0%;
         width: 35%;
@@ -816,8 +763,7 @@ footer a:hover{
     }
 
     .poppy-header{
-        height: 100px;
-       
+        height: 250px;       
         
     }
 
@@ -831,26 +777,17 @@ footer a:hover{
         margin-bottom: 10%;
     }
     .textDescription {
-
         top: 130px;
     }
 
     .poppy-header img{
-        margin-top: 200%;
+        margin-top: 80px;
     }
 
-    .bar{
-        bottom: 50px;
-        margin-top: 110%;
-    }
 
     .backToTop {
         margin-left: 72%;
         top: 30px;
         width: 21%;
-    }
-
-    .pictureHome{
-        margin-top: 130%;
     }
 }

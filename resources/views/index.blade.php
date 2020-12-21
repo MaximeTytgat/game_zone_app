@@ -13,9 +13,8 @@
     <div class="poppy-header">
         <img src="{{asset('images/astrobot-header-home-text.png')}}" alt="">
     </div>
-    <div class="bar"></div>
     <div class="pictureHome">
-        <img src="{{asset('images/image/picture-home-girls.png')}}" alt="">
+        <img src="{{asset('images/picture-home-girls.png')}}" alt="">
         <img class="center-picture-home" src="{{asset('images/picture-home-parc-sd.png')}}" alt="">
         <img src="{{asset('images/picture-parc.png')}}" alt="">
     </div>
