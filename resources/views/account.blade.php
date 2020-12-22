@@ -47,7 +47,9 @@
             </div>
         </div>
     </nav>
-    <img class="picture" src="{{asset('images/astrobotAccount.png')}}" alt="astro_bot">
+    <div class="astroBot">
+        <img class="picture" src="{{asset('images/astrobotAccount.png')}}" alt="astro_bot">
+    </div>
     <div class="containerWhite">
         <form action="/connexion" method="post">
             <div>
@@ -107,6 +109,7 @@
         </div>
     </div>
     <p class="xp">Explication systeme de gain d’xp</p>
+    <p class="xp2">Notre parc possède un système d'expérience, que l'on gagne a chaque fois que l'on effectue une attraction, il est possible de scanner un code QR qui va vous permettre de valider votre attraction et donc gagner l'expérience</p>
     <!-- footer -->
     <img class="backToTop" src="{{asset('images/backToTop.png')}}" alt="back_to_top">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
