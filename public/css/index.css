@@ -17,8 +17,8 @@ p{
 
 @font-face {
     font-family: josefin;
-    src: url('/fonts/josefin.ttf') format("truetype");
-  }
+    src: url(/fonts/JosefinSans-Regular.ttf) format("truetype");
+}
 
 html, body {
 

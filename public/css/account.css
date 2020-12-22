@@ -1,14 +1,19 @@
 * {
     margin: 0 auto; 
+    font-family: 'josefin';
 }
 
 
 /* header */ /* header *//* header *//* header *//* header */
+
 @font-face {
   font-family: josefin;
-  src: url(/fonts/josefin.ttf) format("truetype");
+  src: url('/fonts/JosefinSans-Regular.ttf') format("truetype");
 }
+p{
+  font-family: 'Josefin';
 
+}
 html, body {
 margin: 0;
 padding: 0;
