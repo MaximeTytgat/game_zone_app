@@ -47,6 +47,8 @@
             </div>
         </div>
     </nav>
+    <img class="imageHeader" src="images/pjv-2020-2-1000x288.jpg" alt="">
+
     <div class="bar"></div>
     <img class="poppyMap" src="{{asset('images/astrobot-header-map.png')}}" alt="">
     <div class="containerPlan">

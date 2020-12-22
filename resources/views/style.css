@@ -214,6 +214,12 @@ span{
       overflow: hidden;
   }
 
+  .poppyMap {
+    margin-left: 40%;
+    position: relative;
+    bottom: 320px;
+}
+
   .poppyPicture img{
       position: relative;
       top: 480px;
