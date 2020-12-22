@@ -91,7 +91,7 @@
     </main>
 </div>
 </body>
-
+@include('footer')
 <script src="{{ asset("js/morpion.js") }}"></script>
 
 
