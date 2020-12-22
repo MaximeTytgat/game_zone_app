@@ -48,7 +48,7 @@
         </div>
     </nav>
     <div class="titlePropos">
-        <h2>Qui sommes-nous ?</h2>
+       <a href="{{asset('aboutEN.blade')}}"></a> <h2>Qui sommes-nous ?</h2>
     </div>
     <div class="container">
 
