@@ -1,125 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{asset('css/info.css')}}">
-    <title>Document</title>
+    <title>Informations</title>
 </head>
-<body>
-     <div class="container">
-         <p>
-           <strong>Infos </strong><br>
-           <br>
-           Les infos vont mettre en avant les les différents types 
-           d’informations qui vous aidera au cas où !<br>
-            <br>
-           HANDICAP, MALADIES, ALLERGIES<br>
-           <br>
-           Vous avez une question liée à des réservations/visites 
-           pour les personnes en situation d'handicap ou qui souffrent 
-           d'allergies alimentaires. Utilisez notre formulaire dédié en 
-           cliquant ici .<br>
 
-           Pour toute autre question, merci de nous contacter au<br>
-           <br>
-           06 12 34 56 78*<br>
-           *Service 0,15 €/min + prix appel<br>
-           <br>
-           <br>
-            <strong>OBJET PERDU</strong><br>
+<body>
+    <div class="container">
+        <p>
+            <strong>Informations </strong><br>
             <br>
-            Si vous avez égaré un objet personnel lors de votre visite 
-            dans nos parcs, vous pouvez contacter notre service<br>
-            Objets Trouvés en cliquant ici :<br>
+            The information will highlight different types of information that will help you just in case!<br>
+            <br>
+            DISABILITY, DESEASES, ALLERGIES<br>
+            <br>
+            You have a question related to reservations/visits
+            for people with disabilities or food allergies. Use our dedicated form by clicking here .<br>
+
+            For any other question, please contact us at<br>
+            <br>
+            (+33) 06 12 34 56 78*<br>
+            *Service 0,15 €/min + price for a call<br>
+            <br>
+            <br>
+            <strong>LOST AND FOUND</strong><br>
+            <br>
+            If you have lost a personal item during your visit
+            in our parks, you can contact our service<br>
+            Lost and Found by clicking here :<br>
             <br>
             <strong>gamezonecontactservice@gmail.com</strong><br>
             <br>
             <br>
-            <strong>DEMANDE DE FACTURE</strong><br>
+            <strong>INVOICE REQUEST</strong><br>
             <br>
-            Si vous souhaitez recevoir une facture acquittée suite à un 
-            séjour, une visite ou un achat à Game Zone, nous vous 
-            invitons à nous contacter à l’adresse suivante :<br>
+            If you would like to receive a paid invoice following a
+            stay, visit or purchase at Game Zone, we invite you to contact us at the following address:<br>
             <br>
             <strong>gamezonecontactservice@gmail.com</strong><br>
             <br>
-            en communiquant vos nom, prénom, adresse postale et votre 
-            numéro de réservation (si votre demande est liée à un séjour) 
-            et/ou le ticket qui vous a été remis lors de la transaction.<br>
+            by communicating your surname, first name, postal address and your reservation number (if your request is
+            related to a stay) and/or the ticket that was given to you at the time of the transaction.<br>
             <br>
             <br>
-            <strong>SERVICE APRÈS VENTE BOUTIQUES</strong><br>
+            <strong>AFTER-SALE SERVICE OF OUR STORES</strong><br>
             <br>
-            En cas de réclamation n’ayant pas donné lieu à une réponse 
-            satisfaisante dans un délai de 45 jours, vous avez la 
-            possibilité de saisir le Médiateur du Tourisme et du Voyage, 
-            dont les coordonnées et modalités de saisine peuvent être 
-            obtenues en consultant son site Internet :<br>
-             <a href="http://www.mtv.travel">http://www.mtv.travel</a><br>
-             <br>
-             <br>
-             <strong>RÉCLAMATION APRÈS SÉJOUR</strong><br>
-             <br>
-             Votre visite n’est pas terminée et vous souhaitez nous faire 
-             d’une déception ? Pour toute demande ou commentaire liés à votre 
-             parc, nous vous invitons à vous présenter directement à la 
-             réception de ce dernier.<br>
-             <br>
-             Vous avez déjà effectué votre visite et souhaitez nous faire 
-             part d'une réclamation? Pour en faciliter le traitement, 
-             veuillez utiliser notre formulaire de contact dédié en cliquant 
-             ici ou envoyer un e-mail à l’adresse suivante :<br> 
-             <strong>gamezonecontactservice@gmail.com</strong><br>
-             <br>
-             En cas de réclamation n’ayant pas donné lieu à une réponse 
-             satisfaisante dans un délai de 45 jours, vous avez la 
-             possibilité de saisir le Médiateur du Tourisme et du Voyage, 
-             dont les coordonnées et modalités de saisine peuvent être 
-             obtenues en consultant son site Internet :<br> 
-             <a href="http://www.mtv.travel">http://www.mtv.travel</a> . 
-             Pour le règlement des litiges relatifs à des transactions en 
-             ligne, vous pouvez vous rendre sur la plate-forme mise en place 
-             par la Commission européenne à l’adresse suivante :<br>
-             <a href="http://ec.europa.eu/odr/">http://ec.europa.eu/odr/</a><br>
-             <br>
-             <br>
-              <strong>RÈGLES DE RESPECT DE LA VIE PRIVÉE</strong><br>
-              <br>
-              Vous disposez d'un certain nombre de droits, notamment le 
-              droit de modifier, supprimer ou demander l'accès à vos 
-              informations à caractère personnel, ainsi que le droit de 
-              modifier vos préférences marketing (ce qui comprend la 
-              possibilité de retirer votre consentement à tout moment). 
-              Veuillez consulter nos Règles de respect de la vie privée 
-              pour en savoir plus sur la façon dont nous gérons vos 
-              informations à caractère personnel, ou contactez 
-              <strong>gamezonecontactservice@gmail.com</strong><br>
-              <br>
-              <br>
-              <strong>DEMANDE DE LOTS ET OBJETS PUBLICITAIRES</strong><br>
-              <br>
-              Vous souhaitez recevoir des lots et/ou objets publicitaires. 
-              DGame Zone ne dispose pas d'objets publicitaires et de lots 
-              à envoyer à la clientèle.<br>
-              <br>
-              <br>
-              <strong>DEMANDE DE LOTS ET OBJETS PUBLICITAIRES</strong><br>
-              <br>
-              Vous souhaitez organiser une visite de groupe à Game Zone ? 
-              Vous souhaitez modifier un dossier en cours, nous faire parvenir 
-              vos commentaires ou encore poser des questions? Cliquez ici .<br>
-              <br>
-              Pour toute demande concernant le tourisme d’affaires , 
-              un site dédié est mis à votre disposition. Cliquez ici .<br>
-              <br>
-              <br>
-              <strong>RECRUTEMENT</strong><br>
-              <br>
-              Pour consulter les offres de recrutement de Game Zone ou 
-              déposer votre candidature , une page dédiée est mis à votre 
-              disposition. Cliquez ici.<br>
-         </p>
-     </div>
+            In the event of a complaint which has not given rise to a satisfactory response within 45 days, you have the
+            possibility of contacting the Tourism and Travel Mediator, whose contact details and methods of referral can
+            be obtained by visiting his website:<br>
+            <a href="http://www.mtv.travel">http://www.mtv.travel</a><br>
+            <br>
+            <br>
+            <strong>CLAIM AFTER YOUR STAY</strong><br>
+            <br>
+            Your visit is not finished and you want to make us a disappointment? For any request or comment related to
+            your park, we invite you to come directly to the reception desk.<br>
+            <br>
+            You have already visited us and would like to make a complaint? To facilitate its processing, please use our
+            dedicated contact form by clicking here or send an e-mail to the following address :<br>
+            <strong>gamezonecontactservice@gmail.com</strong><br>
+            <br>
+            In the event of a complaint that has not been answered satisfactorily within 45 days, you have the
+            possibility of contacting the Tourism and Travel Mediator, whose contact details and methods of referral can
+            be obtained by visiting his website. :<br>
+            <a href="http://www.mtv.travel">http://www.mtv.travel</a> .
+            For the settlement of disputes relating to transactions in
+            line, you can go to the platform set up by the European Commission at the following address :<br>
+            <a href="http://ec.europa.eu/odr/">http://ec.europa.eu/odr/</a><br>
+            <br>
+            <br>
+            <strong>RÈGLES DE RESPECT DE LA VIE PRIVÉE</strong><br>
+            <br>
+            You have a number of rights, including the following
+            the right to modify, delete or request access to your
+            information of a personal nature, as well as the right to
+            change your marketing preferences (including the
+            You may withdraw your consent at any time).
+            Please see our Privacy Policy.
+            to find out more about how we manage your
+            personal information, or contact
+            <strong>gamezonecontactservice@gmail.com</strong><br>
+            <br>
+            <br>
+            <strong>REQUEST FOR BATCHES AND ADVERTISING OBJECTS</strong><br>
+            <br>
+            You wish to receive lots and/or advertising objects. Game Zone does not have any promotional items or prizes
+            to send to customers.<br>
+            <br>
+            <br>
+            <strong>REQUEST FOR BATCHES AND ADVERTISING OBJECTS</strong><br>
+            <br>
+            Would you like to organize a group visit to Game Zone? You wish to modify a current file, send us your
+            comments or ask questions? Click here to contact us .<br>
+            <br>
+            For any request concerning business tourism ,
+            a dedicated website is at your disposal. Click here.<br>
+            <br>
+            <br>
+            <strong>RECRUITING</strong><br>
+            <br>
+            To consult Game Zone's recruitment offers or to apply for a job, a dedicated page is available. Click
+            here.<br>
+        </p>
+    </div>
 </body>
+
 </html>
