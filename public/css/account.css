@@ -12,12 +12,18 @@
 html, body {
 margin: 0;
 padding: 0;
-width: 100vw;
-height: 100vh;
+
 }
 
-
-
+.astroBot{
+  width: 100%;
+  justify-content: flex-end;
+}
+ 
+.picture{
+  width: 300px;
+  float: right;
+}
 
 .avatar {
   height: 50px;
@@ -104,8 +110,11 @@ list-style: none;
     border: 1px solid #999;
     background-color: #282C53;
     color: #fff;
+    margin: 20px 70px;
   }
-  
+  .xp2{
+    width: 60%;
+  }
   input:focus, textarea:focus {
     border-color: #000;
   }
@@ -121,7 +130,9 @@ list-style: none;
   }
   
   /* subscribe form */
-
+  .containerWhite {
+    margin-top: 100px;
+  }
   .containerBlue h2{
       text-align: center;
       color: #fff;
@@ -226,13 +237,7 @@ footer{
     color: white;
     
   }
-  
-  .picture{
-    position: relative;
-    left: 1217px;
-    top: 183px;
-
-  }
+ 
   .OpenHours{
     text-align: center;
     color: #fff;
