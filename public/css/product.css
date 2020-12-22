@@ -1,3 +1,14 @@
+*{
+    margin: 0 auto; 
+    padding: 0;
+    font-family: 'josefin' ;
+}
+
+@font-face {
+    font-family: josefin;
+    src: url(/fonts/JosefinSans-Regular.ttf) format("truetype");
+}
+
 #cartButton{
     background-color: #C4C4C4;
 }
