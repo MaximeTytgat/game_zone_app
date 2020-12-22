@@ -157,7 +157,6 @@ header .container p{
     top: 75px;
     width: 25%;
 }
-
 footer{
     width: 100%;
     background-color: #282C53;
@@ -190,24 +189,19 @@ footer{
     padding: 5px;
 }
 
-
-
-.twitterPicture,
-.facebookPicture,
 .youtubePicture{
+    width: 55px;
+}
+
+.facebookPicture,
+.instagramPicture{
     width: 40px;
 }
 
 
-
-.instagramPicture{
-    width: 35px;
-}
-
-
-
+.twitterPicture,
 .mailPicture{
-    width: 50px;
+    width: 45px;
 }
 
 
@@ -240,6 +234,7 @@ footer{
 footer a:hover{
     color: #F6CD40;
 }
+
 
 @media screen and (min-width: 380px) and (max-width: 720px){
     .logo{
@@ -284,6 +279,9 @@ footer a:hover{
     }
     .reseaux{
         width: 80%;
+        DISPLAY: flex;
+        margin-bottom: 50px;
+        margin-left: 150px;
     }
 
     .footerDown{

@@ -1,23 +1,23 @@
 <header>
     <nav>
         <div class="flex justify-between items-center w-full">
-            <a class="logo link" href="#"><img class="logo" src="{{ asset("images/logo.png") }}" /></a>
+            <a class="logo link" href="{{ route("index") }}"><img class="logo" src="{{ asset("images/logo.png") }}" /></a>
             <div class="flex w-4/5 justify-around">
-                <a class="link" href="index.html">Le parc</a>
-                <a class="link" href="attraction.html">Les attractions</a>
-                <a class="link" href="map.html">Le plan</a>
+                <a class="link" href="{{ route("index") }}">Le parc</a>
+                <a class="link" href="{{ route("attraction") }}">Les attractions</a>
+                <a class="link" href="{{ route("map") }}">Le plan</a>
                 <div class="link menu-wrapper">
                     Preparer ma visite
 
                     <div class="dropdown">
-                        <a class="menu-item link" href="map.html">Se rendre au parc</a>
-                        <a class="menu-item link" href="#">Tarif et Billeterie</a>
-                        <a class="menu-item link" href="calendar.html">Horaires et calendrier</a>
+                        <a class="menu-item link" href="{{ route("map") }}">Se rendre au parc</a>
+                        <a class="menu-item link" href="{{ route("pricelist") }}">Tarif et Billeterie</a>
+                        <a class="menu-item link" href="{{ route("calendar") }}">Horaires et calendrier</a>
                     </div>
                 </div>
                 <a class="link" href="shop/boutique.html">Boutique</a>
-                <a class="link" href="game.html">My game</a>
-                <a class="link" href="information.html"><span>Info</span></a>
+                <a class="link" href="{{ route("game") }}">My game</a>
+                <a class="link" href="{{ route("info") }}"><span>Info</span></a>
             </div>
         </div>
         <h1><i class=" fa fa-shopping-cart"></i></h1>
@@ -31,7 +31,7 @@
 
             <x-dropdown class="" align="right" width="48">
                 <x-slot name="trigger">
-                    <button class="ml-8 flex items-center text-sm font-medium  hover:text-gray-300 hover:border-gray-300 focus:outline-none focus:text-gray-300 focus:border-gray-300 transition duration-150 ease-in-out">
+                    <button class="ml-20 flex items-center text-sm font-medium  hover:text-gray-300 hover:border-gray-300 focus:outline-none focus:text-gray-300 focus:border-gray-300 transition duration-150 ease-in-out">
                         <div style="display: flex; align-items: center; justify-content: flex-end">{{ Auth::user()->username }} <img style="width: 100px" src="{{ asset(Auth::user()->profile_icon) }}" alt=""></div>
 
                         <div class="ml-1">
@@ -79,41 +79,35 @@
         <!-- nav mobile -->
         <div class="content-mobile">
             <li>
-                <a class="link-mobile" href="index.html">Le parc</a><br>
+                <a class="link-mobile" href="{{ route("index") }}">Le parc</a><br>
             </li>
             <li>
-                <a class="link-mobile" href="attraction.html">Les attractions</a><br>
+                <a class="link-mobile" href="{{ route("index") }}">Les attractions</a><br>
             </li>
             <li>
-                <a class="link-mobile" href="map.html">Le plan</a><br>
+                <a class="link-mobile" href="{{ route("map") }}">Le plan</a><br>
             </li>
             <li>
-                <a class="link-mobile" href="map.html">Se rendre au parc</a>  <br>
+                <a class="link-mobile" href="{{ route("map") }}">Se rendre au parc</a>  <br>
             </li>
             <li>
-                <a class="link-mobile" href="#">Tarif et Billeterie</a>  <br>
+                <a class="link-mobile" href="{{ route("pricelist") }}">Tarif et Billeterie</a>  <br>
             </li>
             <li>
-                <a class="link-mobile" href="calendar.html">Horaires et calendrier</a> <br>
+                <a class="link-mobile" href="{{ route("calendar") }}">Horaires et calendrier</a> <br>
             </li>
             <li>
                 <a class="link-mobile" href="#">Boutique</a><br>
             </li>
             <li>
-                <a class="link-mobile" href="game.html"> My game</a><br>
+                <a class="link-mobile" href="{{ route("game") }}"> My game</a><br>
             </li>
             <li>
-                <a class="link-mobile" href="information.html"><span>Info</span></a>
+                <a class="link-mobile" href="{{ route("info") }}"><span>Info</span></a>
             </li>
         </div>
     </nav>
 </header>
-
-
-
-
-
-
 
 @if (session('status'))
     <div class="w-full py-3 bg-green-300 font-bold text-white text-center">
@@ -122,3 +116,4 @@
         </div>
     </div>
 @endif
+

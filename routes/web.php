@@ -38,7 +38,7 @@ Route::get('/cgv', [HomeController::class, 'cgv'])->name('cgv');
 Route::get('/cgu', [HomeController::class, 'cgu'])->name('cgu');
 Route::get('/parc', [HomeController::class, 'parc'])->name('parc');
 Route::get('/shop', [HomeController::class, 'shop'])->name('shop');
-Route::get('/plan', [HomeController::class, 'plan'])->name('plan');
+Route::get('/plan', [HomeController::class, 'plan'])->name('map');
 Route::get('/game', [HomeController::class, 'game'])->name('game');
 Route::get('/info', [HomeController::class, 'info'])->name('info');
 Route::get('/admin', [HomeController::class, 'admin'])->name('admin');

@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
     <title>Accueil</title>
 </head>
-
 <body>
     <div class="poppy-header">
         <img src="{{asset('images/astrobot-header-home-text.png')}}" alt="">
