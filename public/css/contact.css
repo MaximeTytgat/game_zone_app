@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 @font-face {
     font-family: commando;
     src: url(/fonts/commando.ttf) format("truetype");
