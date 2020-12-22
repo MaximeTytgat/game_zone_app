@@ -33,7 +33,7 @@ Route::resource('Attraction', AttractionController::class);
 //    return view('welcome');
 //});
 
-Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/index', [HomeController::class, 'index'])->name('index');
 Route::get('/parc', [HomeController::class, 'parc'])->name('parc');
 Route::get('/attraction', [HomeController::class, 'attraction'])->name('attraction');
 Route::get('/plan', [HomeController::class, 'plan'])->name('plan');
@@ -53,6 +53,7 @@ Route::get('/account', [HomeController::class, 'account'])->name('account');
 Route::get('/admin', [HomeController::class, 'admin'])->name('admin');
 Route::get('/legalnotice', [HomeController::class, 'legalnotice'])->name('legalnotice');
 Route::get('/product', [HomeController::class, 'product'])->name('product');
+Route::get('/footer', [HomeController::class, 'footer'])->name('footer');
 
 
 
