@@ -23,35 +23,6 @@ html, body {
   padding: 0;
 }
 
-header nav {
-    display: flex;
-    background-color: #282C53;
-    color: white;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px;
-    font-family: commando;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 13.41px;
-}
-
-.logo{
-    width: 150px;
-}
-
-nav{
-    position: fixed;
-    width: 100%;
-
-}
-
-header nav .link, .languages {
-    display: none;
-}
-
-
 
 .avatar {
     height: 50px;
@@ -319,30 +290,6 @@ footer a:hover{
     .menu-wrapper {
         cursor: pointer;
         position: relative;
-    }
-
-
-    .dropdown {
-        display: none;   
-        position: absolute;
-        left: -23%;
-        width: 190px;
-        background-color: #282C53;
-        text-align: center;
-        padding-top: 40px;
-    }
-
-    .dropdown .menu-item:first-child {
-        padding: 24px 10px 14px 10px;
-    }
-
-    .dropdown .menu-item {
-        display: block;
-        padding: 14px 10px;
-    }
-
-    .menu-wrapper:hover .dropdown {
-        display: block;
     }
 
     .menu-wrapper:hover .menu-arrow {

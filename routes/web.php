@@ -28,7 +28,7 @@ Route::resource('Attraction', AttractionController::class);
 //    return view('welcome');
 //});
 
-Route::get('/', [HomeController::class, 'index'])->name('index');
+Route::get('/index', [HomeController::class, 'index'])->name('index');
 Route::get('/parc', [HomeController::class, 'parc'])->name('parc');
 Route::get('/attraction', [HomeController::class, 'attraction'])->name('attraction');
 Route::get('/plan', [HomeController::class, 'plan'])->name('plan');

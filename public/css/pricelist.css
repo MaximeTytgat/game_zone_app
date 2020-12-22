@@ -401,29 +401,6 @@ footer a:hover{
   }
 
 
-  .dropdown {
-      display: none;   
-      position: absolute;
-      left: -23%;
-      width: 190px;
-      background-color: #282C53;
-      text-align: center;
-      padding-top: 40px;
-  }
-
-  .dropdown .menu-item:first-child {
-      padding: 24px 10px 14px 10px;
-  }
-
-  .dropdown .menu-item {
-      display: block;
-      padding: 14px 10px;
-  }
-
-  .menu-wrapper:hover .dropdown {
-      display: block;
-  }
-
   .menu-wrapper:hover .menu-arrow {
       background-image: url(/images/arrow.png);
   }    
