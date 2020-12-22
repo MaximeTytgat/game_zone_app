@@ -3,7 +3,7 @@
     src: url(/fonts/commando.ttf) format("truetype");
 }
 
-.logo{
+    .logo{
     width: 150px;
 }
 
@@ -14,8 +14,11 @@ form{
 html, body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
+}
+.blueBox{
+    background-color: #282C53;
+    padding: 40px 0 40px 0;
+    color: #fff;
 }
 
 header nav {

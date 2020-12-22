@@ -1,11 +1,6 @@
 *{
-    margin: 0 auto; 
-}
-body{
-    background-image: url(image/background-attraction.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    
+    margin: 0; 
+    padding: 0;
 }
 
 /* header */
@@ -26,8 +21,6 @@ header{
 html, body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
 }
 
 header nav {
@@ -116,6 +109,15 @@ li > a:hover {
   margin: 20px;
   list-style: none;
 }
+.jumbotron{
+    background-image: url(/images/background-attraction.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-size: 100%;
+    width: 100%;
+    height: 216px;
+}
   /* body */  /* body */  /* body */  /* body */  /* body */
 
 
@@ -130,32 +132,29 @@ li > a:hover {
       width: 80%;
       display: flex;
       flex-direction: row;
-      margin-top: 15%;
+      margin: auto;
+      padding: 20px 0 20px 0;
   }
 
   .containerLeft img{
       margin-top: 5%;
-    margin-left: 10%;
     
   }
 
   .containerLeft p{
-      width: 50%;
       font-size: 25px;
       text-align: justify;
+      margin-left: 40px;
   }
 
   .more_infos{
-      width: 15%;
-      height: 50px;
-      position: relative;
-      top: 400px;
-      right: 200px;
-      
-      color: #282C53;
-      font-weight: bold;
-      font-size: 25px;
-      border-radius: 10px;
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #282C53;
+  }
+  .boxBlue .more_infos{
+      color: #ffffff;
   }
 
   .more_infos:hover{
@@ -187,22 +186,10 @@ li > a:hover {
 
  .boxBlue{
      background-color: #282C53;
+     padding: 20px 0 20px 0;
 
  }
  
- .more_infos_right{
-    width: 15%;
-    height: 50px;
-    position: relative;
-    top: 400px;
-    right: 200px;
-    
-    color: #fff;
-    font-weight: bold;
-    font-size: 25px;
-    border-radius: 10px;
- }
-
  .more_infos_right:hover{
     color: #F6CD40;
       text-decoration: none;
@@ -299,9 +286,18 @@ footer a:hover{
 
 @media screen and (min-width: 1200px){  
   
-  .content-mobile {
-    display: none;
-  }
+    .jumbotron{
+        height: 742px;
+    }
+    .containerLeft{
+        padding: 20px 0 20px 0;
+    }
+    .boxBlue{
+        padding: 20px 0 20px 0;
+    }
+    .content-mobile {
+        display: none;
+    }
     header nav .link, .languages {
         display: block;
     }
@@ -394,11 +390,6 @@ footer a:hover{
     .containerRight p,
     .containerLeft p {
         font-size: 17px;
-    }
-
-    .containerLeft img,
-    .containerRight img{
-        width: 20%;
     }
 
     .backToTop {
