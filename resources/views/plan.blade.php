@@ -33,6 +33,8 @@
     <div class="backToTop">
         <img src="{{asset('images/backToTop.png')}" alt="">
     </div>
+    @include('footer')
+
 </body>
 
 </html>

@@ -48,6 +48,7 @@ Route::get('/account', [HomeController::class, 'account'])->name('account');
 Route::get('/admin', [HomeController::class, 'admin'])->name('admin');
 Route::get('/legalnotice', [HomeController::class, 'legalnotice'])->name('legalnotice');
 Route::get('/product', [HomeController::class, 'product'])->name('product');
+Route::get('/footer', [HomeController::class, 'footer'])->name('footer');
 
 
 

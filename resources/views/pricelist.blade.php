@@ -103,6 +103,8 @@
                 <button class="command">Passer la commande</button>
             </div>
         </div>
+        @include('footer')
+
 </body>
 
 </html>

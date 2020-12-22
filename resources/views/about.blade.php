@@ -48,6 +48,8 @@
         avec des équipes passionnées par leurs produits et leur métier.<br>
     </p>
     </div>
+    @include('footer')
+
 </body>
 
 </html>

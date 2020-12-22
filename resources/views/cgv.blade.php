@@ -111,6 +111,8 @@
             (signature du représentant légal la société)<br>
         </p>
     </div>
+    @include('footer')
+
 </body>
 
 </html>

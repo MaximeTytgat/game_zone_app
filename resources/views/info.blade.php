@@ -121,5 +121,7 @@
               disposition. Cliquez ici.<br>
          </p>
      </div>
+     @include('footer')
+
 </body>
 </html>

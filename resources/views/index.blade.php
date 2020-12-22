@@ -80,6 +80,7 @@
         <img src="{{asset('images/battleKartRound.png')}}" alt="">
         <img src="{{asset('images/contagionRound.png')}}" alt="">
         <a href="{{ route('index') }}"><img class="backToTop" src="{{asset('images/backToTop.png')}}" alt=""></a>
+      @include('footer')
         <script src="{{asset('js/script.js')}}"></script>
 </body>
 

@@ -31,6 +31,8 @@
             <img src="{{asset('images/magazine_4.png')}}" alt="Image magazine 4">
         </div>
     </div>
+    @include('footer')
+
 </body>
 
 </html>
