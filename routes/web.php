@@ -47,15 +47,15 @@ Route::get('/shop', [HomeController::class, 'shop'])->name('shop');
 Route::get('/account', [HomeController::class, 'account'])->name('account');
 Route::get('/admin', [HomeController::class, 'admin'])->name('admin');
 Route::get('/legalnotice', [HomeController::class, 'legalnotice'])->name('legalnotice');
-Route::get('/product', [HomeController::class, 'product'])->name('product');
+/* Route::get('/product', [HomeController::class, 'product'])->name('product');
 Route::get('/calendar', [HomeController::class, 'calendar'])->name('calendar');
-
-
+ */
+/* 
 Route::get('ENG/abouten', [HomeController::class, 'abouten'])->name('abouten');
 Route::get('ENG/pricelisten', [HomeController::class, 'pricelisten'])->name('pricelisten');
 
 
-
+ */
 
 Route::get('/dashboard', function () { return view('dashboard'); })->middleware(['auth'])->name('dashboard');
 
