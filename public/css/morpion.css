@@ -84,6 +84,75 @@ main {
     font-weight: bolder;
 }
 
+footer {
+    border-top: 1px solid white;
+    width: 100%;
+    background-color: #282C53;
+    
+}
+
+.firstBoxFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3%;
+} 
+
+.firstBoxFooter a  {
+    text-decoration: none;
+    color: white;
+}
+
+.OpenHours {
+    padding-left: 85%;
+    color: #fff;
+    margin: 3% 0% ;
+}
+
+.reseaux img {
+    
+    margin-left: 20px;
+}
+
+.twitterPicture, 
+.facebookPicture, 
+.youtubePicture {
+    width: 40px;
+}
+
+.instagramPicture { 
+    width: 35px;
+}
+
+.mailPicture {
+    width: 50px;
+}
+
+.footerDown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cgvMl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    position: relative;
+    padding-bottom: 1%;
+}
+
+.cgvMl a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+footer a:hover{
+    color: #F6CD40;
+}
+
 
 @media only screen and (max-width: 800px) {
     main {
