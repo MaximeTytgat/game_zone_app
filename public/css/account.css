@@ -7,6 +7,8 @@
 @font-face {
   font-family: commando;
   src: url(/fonts/commando.ttf) format("truetype");
+  font-family: josefin;
+  src: url(/fonts/commando.ttf) format("truetype");
 }
 
 html, body {

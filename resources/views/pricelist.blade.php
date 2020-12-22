@@ -88,61 +88,60 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+                <td><strong>Mes billets</strong> </td>
+                <td><strong>Quantité</strong></td>
+                <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+                <td>Pass Fighter Junior </td>
+                <td>2
+                    <input class="moins" type="button" value="-">
+                    <input class="plus" type="button" value="+">
 
-
-        <div class="table">
-            <table>
-                <tr>
-                    <td><strong>Mes billets</strong> </td>
-                    <td><strong>Quantité</strong></td>
-                    <td><strong>Total</strong></td>
-                </tr>
-                <tr>
-                    <td>Pass Fighter Junior </td>
-                    <td>2
-                        <input class="moins" type="button" value="-">
-                        <input class="plus" type="button" value="+">
-
-                    </td>
-                    <td>0.00€</td>
-                </tr>
-                <tr>
-                    <td>Pass Fighter</td>
-                    <td>1
-                        <input class="moins" type="button" value="-">
-                        <input class="plus" type="button" value="+">
-                    </td>
-                    <td>12.50€</td>
-                </tr>
-                <tr>
-                    <td>Pass Super Fighter </td>
-                    <td>1
-                        <input class="moins" type="button" value="-">
-                        <input class="plus" type="button" value="+">
-                    </td>
-                    <td>13.50€</td>
-                </tr>
-                <tr>
-                    <td>Pass heroes</td>
-                    <td>2
-                        <input class="moins" type="button" value="-">
-                        <input class="plus" type="button" value="+">
-                    </td>
-                    <td>15.00€</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>6</td>
-                    <td>56.00€</td>
-                </tr>
-            </table>
-            <div class="command-date">
-                <a href="{{asset('calendar')}}"></a><button class="date">Voir les dates disponibles</button></a>
-                <button class="command">Passer la commande</button>
-            </div>
+                </td>
+                <td>0.00€</td>
+            </tr>
+            <tr>
+                <td>Pass Fighter</td>
+                <td>1
+                    <input class="moins" type="button" value="-">
+                    <input class="plus" type="button" value="+">
+                </td>
+                <td>12.50€</td>
+            </tr>
+            <tr>
+                <td>Pass Super Fighter </td>
+                <td>1
+                    <input class="moins" type="button" value="-">
+                    <input class="plus" type="button" value="+">
+                </td>
+                <td>13.50€</td>
+            </tr>
+            <tr>
+                <td>Pass heroes</td>
+                <td>2
+                    <input class="moins" type="button" value="-">
+                    <input class="plus" type="button" value="+">
+                </td>
+                <td>15.00€</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>6</td>
+                <td>56.00€</td>
+            </tr>
+        </table>
+        <div class="command-date">
+            <button class="date">Voir les dates disponibles</button></a>
+            <button class="command">Passer la commande</button>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-        @include('footer')
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    @include('footer')
 
 </body>
 
