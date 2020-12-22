@@ -84,4 +84,7 @@ class HomeController extends Controller
     public function product() {
         return view('product');
     }
+    public function footer() {
+        return view('footer');
+    }
 }

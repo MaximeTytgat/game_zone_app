@@ -68,4 +68,7 @@
 </body>
 
 </html>
+@include('footer')
+
+</body>
 
